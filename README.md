@@ -34,9 +34,30 @@ Fast Initialization Library(FIL) for STM32 microcontrollers
 
 <p align="center"><img width=40% src=https://github.com/Casonka/FIL-EmBitzDeploy/blob/main/images/6.png></p>
 
-2) Теперь, когда имеется тестовый созданный проект, необходимо выполнить загрузку кода библиотеки FIL. Для этого 
+2) Теперь, когда имеется тестовый созданный проект, необходимо выполнить загрузку кода библиотеки FIL. Для этого через команду cd в консоли cmd перейдите в папку с созданным проектом. Далее через команду git clone будет загружены основные файлы библиотеки.
 
 ```sh
 cd YOUR FOLDER
 git clone https://github.com/Casonka/FIL-EmbitzDeploy.git & rmdir /q images & rmdir README.md
 ```
+
+3) После выполнения прыдущих инструкций, зайдите в файл main.h и добавьте следующую строку:
+
+
+```sh
+[main.h]
+#include "FilConfig.h"
+
+[main.c]
+
+int main(void)
+{
+Board_config();
+  while(1) 
+  {
+  
+  }
+}
+
+```
+
