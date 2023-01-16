@@ -38,7 +38,7 @@ Fast Initialization Library(FIL) for STM32 microcontrollers
 
 ```sh
 cd YOUR FOLDER
-git clone https://github.com/Casonka/FIL-EmbitzDeploy.git & rmdir /q images & rmdir README.md
+git clone https://github.com/Casonka/FIL-EmbitzDeploy.git & rmdir /q images & rmdir /q README.md
 ```
 
 3) После выполнения прыдущих инструкций, зайдите в файл main.h и добавьте команду на включение линкер файла "FilConfig.h". После этого, в исполнительный файл main.c добавьте общую команду инициализации периферии Board_Condig() (применение настроек).
