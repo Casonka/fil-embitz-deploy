@@ -28,11 +28,11 @@ Fast Initialization Library(FIL) for STM32 microcontrollers
 
 Далее, предстоит выбрать линейку и модель микроконтроллера. Для примера, выберем линейку F4, линейку моделей F401
 
-<p align="center"><img width=36% src=https://github.com/Casonka/FIL-EmBitzDeploy/blob/main/images/4.png> <img width=35% src=https://github.com/Casonka/FIL-EmBitzDeploy/blob/main/images/5.png></p>
+<p align="center"><img width=36% src=https://github.com/Casonka/FIL-EmBitzDeploy/blob/main/images/4.png> <img width=35% src=https://github.com/Casonka/FIL-EmBitzDeploy/blob/main/images/5.jpg></p>
 
 Выберите модель контроллера STM32F401CC. Для демонстрации были убраны другие периферийные библиотеки.
 
-<p align="center"><img width=40% src=https://github.com/Casonka/FIL-EmBitzDeploy/blob/main/images/6.png></p>
+<p align="center"><img width=40% src=https://github.com/Casonka/FIL-EmBitzDeploy/blob/main/images/6.jpg></p>
 
 2) Теперь, когда имеется тестовый созданный проект, необходимо выполнить загрузку кода библиотеки FIL. Для этого через команду cd в консоли cmd перейдите в папку с созданным проектом. Далее через команду git clone будет загружены основные файлы библиотеки.
 
