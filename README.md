@@ -7,7 +7,7 @@ Fast Initialization Library(FIL) for STM32 microcontrollers
 </p></h2>
 
 <p align="center">
-<img src=https://github.com/Casonka/FIL-EmBitzDeploy/blob/main/images/FIL_and_EmBitz.png>
+<img width=40% src=https://github.com/Casonka/FIL-EmBitzDeploy/blob/main/images/FIL_and_EmBitz.png>
 </p>
 
 В этом репозитории содержится инструкция по установке библиотеки [FIL](https://github.com/Casonka/FIL) в среду разработки EmBitz. Инструкция актуальна для версии программного обеспечения не ниже 2.30. Также рекомендуется установить вспомогательное программное обеспечение: 
