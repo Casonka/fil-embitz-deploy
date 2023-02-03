@@ -55,7 +55,7 @@ git clone https://github.com/Casonka/FIL-EmbitzDeploy.git & cd FIL-EmbitzDeploy 
 
 3) Добавьте файлы в дерево проекта. Для этого следуйте указаниям по изображению ниже. Можно добавлять вручную через опцию Add files, однако рекомендуется добавлять через опцию Add files recursively и выбрать папку FIL-EmbitzDeploy.
 
-<p align="center"><img width=40% src=https://github.com/Casonka/FIL-EmBitzDeploy/blob/main/images/8(a).jpg></p>
+<p align="center"><img width=50% src=https://github.com/Casonka/FIL-EmBitzDeploy/blob/main/images/8(a).jpg></p>
 
 4) После выполнения прыдущих инструкций, зайдите в файл main.h и добавьте команду на включение линкер файла "FilConfig.h". После этого, в исполнительный файл main.c добавьте общую команду инициализации периферии Board_Config() (применение настроек). Для примера, также, была использована команда TooglePin() для мигания светодиода каждый 250 мс.
 
