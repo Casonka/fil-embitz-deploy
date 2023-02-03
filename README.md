@@ -48,7 +48,7 @@ cd YOUR FOLDER
 git clone https://github.com/Casonka/FIL-EmbitzDeploy.git & cd FIL-EmbitzDeploy & rmdir /q /s images & del /q README.md
 ```
 
-3) После выполнения прыдущих инструкций, зайдите в файл main.h и добавьте команду на включение линкер файла "FilConfig.h". После этого, в исполнительный файл main.c добавьте общую команду инициализации периферии Board_Condig() (применение настроек). Для примера, также, была использована команда TooglePin() для мигания светодиода каждый 250 мс.
+3) После выполнения прыдущих инструкций, зайдите в файл main.h и добавьте команду на включение линкер файла "FilConfig.h". После этого, в исполнительный файл main.c добавьте общую команду инициализации периферии Board_Config() (применение настроек). Для примера, также, была использована команда TooglePin() для мигания светодиода каждый 250 мс.
 
 
 ```sh
@@ -59,7 +59,7 @@ git clone https://github.com/Casonka/FIL-EmbitzDeploy.git & cd FIL-EmbitzDeploy 
 
 int main(void)
 {
-Board_config();
+Board_Config();
   while(1) 
   {
       TooglePin(LED_PIN);
