@@ -68,7 +68,7 @@ git clone https://github.com/Casonka/FIL-EmbitzDeploy.git & cd FIL-EmbitzDeploy 
 
 int main(void)
 {
-Board_Config();
+Board_Config;
   while(1) 
   {
       TooglePin(LED_PIN);
